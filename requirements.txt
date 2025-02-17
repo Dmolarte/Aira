@@ -1,0 +1,80 @@
+# Core Flask Ecosystem
+Flask==2.2.3
+Flask-SQLAlchemy==3.0.3
+Flask-Cors==3.0.10
+flask-paginate==0.8.1
+flask-mail==0.9.1
+flask-caching==0.9.0
+
+# Database
+SQLAlchemy==1.4.46
+psycopg2-binary==2.9.6  # Optional: for PostgreSQL support
+redis==4.5.4  # For caching and Celery
+
+# Machine Learning and NLP
+scikit-learn==1.2.2
+scipy==1.10.1
+numpy==1.24.2
+nltk==3.8.1
+textblob==0.17.1
+sentence-transformers==2.2.2
+spacy==3.5.2
+vaderSentiment==3.3.2
+transformers==4.28.1
+torch==2.0.0
+
+# Computer Vision
+opencv-python==4.7.0.72
+mtcnn==0.1.1
+dlib==19.24.0
+
+# Geocoding and Location
+geopy==2.3.0
+shapely==2.0.1
+
+# Language and Translation
+googletrans==3.1.0a0
+langdetect==1.0.9
+
+# AI and Machine Learning Services
+openai==0.27.4
+celery==5.2.7
+
+# Multimedia Processing
+Pillow==9.5.0
+
+# Deployment and Server
+gunicorn==20.1.0
+requests==2.28.2
+
+# Additional Utilities
+python-dateutil==2.8.2
+PyJWT==2.7.0
+Werkzeug==2.2.3
+uuid==1.30
+
+# Security and Hashing
+cryptography==40.0.2
+
+# Optional: for generating CSV/Excel reports
+pandas==2.0.1
+openpyxl==3.1.2
+plotly==5.14.1
+
+# Optional: QR Code and Barcode
+# pyzbar==0.1.9  # Commented out as it's optional
+
+# Optional: Levenshtein distance for text comparison
+python-Levenshtein==0.21.0
+
+# Optional: Enhanced datetime handling
+python-dateutil==2.8.2
+
+# Optional: Logging and Debugging
+python-dotenv==1.0.0
+
+# Additional NLP
+nltk==3.8.1
+
+# Caching
+cachetools==5.3.0
